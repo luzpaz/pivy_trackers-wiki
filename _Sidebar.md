@@ -1,8 +1,9 @@
 # My menu
 * [Home][home]
 * [Getting Started][getting started]
-* [Customizing][customizing]
-* [Classes][classes]
+* [Creating Custom Classes][customizing]
+* [Library Classes][classes]
+* [Scenegraph Strcutures][scenegraph]
 
 [home]: https://github.com/joelgraff/pivy_trackers/wiki
 [getting started]: https://github.com/myproject/wiki/Getting-Started
