@@ -28,6 +28,7 @@ Included here is a list of each trait (and the base tracker classes) and their c
 
 ## Coin Group
 
+[[images/Untitled_1.svg]]
 
 ## Trait Structures
 
