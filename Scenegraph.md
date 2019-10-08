@@ -28,7 +28,11 @@ Included here is a list of each trait (and the base tracker classes) and their c
 
 ## Coin Group
 
-[[images/Untitled_1.svg]]
+A Coin Group object is a basic coin3D scenegraph node structure that consists of one or more of the following:
+
+Swtich | Group | Separator 
+-------|-------|----------
+[[images/switch.svg]] | [[images/group.svg]] | [[images/separator.svg]]
 
 ## Trait Structures
 
