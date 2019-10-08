@@ -17,7 +17,7 @@ Accessing pivy_trackers classes, then, makes it easy as a top-level import:
 Pivy_trackers provides a Python developer with an easy way to directly manipulate the Coin3D scenegraph by generating specific scenegraph node structures which are then inserted and accessed though the pivy_tracker classes.
 
 Check out the [[Scenegraph]] documentation to learn more.
----
+***
 #### Traits
 
 Traits are 'atomic' tracker features which encapsulate one or several scenegraph nodes and related functions.  By inheriting specific traits in a custom pivy_tracker class, specific features / functions can be implemented a la carte (node picking / selection, dragging, geometry, styling, and input events for example).
