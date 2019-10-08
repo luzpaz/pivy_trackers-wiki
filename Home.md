@@ -12,6 +12,8 @@ Accessing pivy_trackers classes, then, makes it easy as a top-level import:
     from pivy_trackers.base import Base
 
 ## Key Concepts
+
+Pivy_trackers works by employing several key concepts to insulate the developer from the inner workings of the scenegraph without depriving them of the incredible flexibility afforded by working at the scenegraph level.
 ***
 ### Scenegraph Management
 Pivy_trackers provides a Python developer with an easy way to directly manipulate the Coin3D scenegraph by generating specific scenegraph node structures which are then inserted and accessed though the pivy_tracker classes.
