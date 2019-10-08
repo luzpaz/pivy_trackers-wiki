@@ -63,6 +63,9 @@ This node structure may consist of one or more SoEventCallback nodes, which prov
 for keyboard, mice, and other devices.
 
 
+[[images/event.svg]]
+
+
 ### Geometry Structure
 
 ### Pick Structure
