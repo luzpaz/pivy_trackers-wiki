@@ -23,7 +23,7 @@ Check out the [[traits]] documentation to learn more.
 
 Pivy trackers are also designed to work in layers of complexity.  A basic tracker might be a MarkerTracker or LineTracker (both included by default in the library).  However, custom tracker classes may be built that may contain any number of these trackers or modify default selection / dragging / styling behaviors accordingly.  
 
-Check out the [[custom classes]] documentation to learn more.
+Check out the [custom classes](Customizing) documentation to learn more.
 
 ## Limitations
 
