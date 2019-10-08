@@ -1,8 +1,11 @@
 # My menu
 * [Home][home]
-* [Technical documentation][techdocs]
-* [User manual][usermanual]
+* [Getting Started][getting started]
+* [Customizing][customizing]
+* [Classes][classes]
 
-[home]: https://github.com/myproject/wiki/Home
-[techdocs]: https://github.com/myproject/wiki/Technical-documentation
-[usermanual]: https://github.com/myproject/wiki/User-manual
+[home]: https://github.com/joelgraff/pivy_trackers/wiki
+[getting started]: https://github.com/myproject/wiki/Getting_Started
+[customizing]: https://github.com/myproject/wiki/Customizing
+[classes]: https://github.com/myproject/wiki/Classes
+[scenegraph]: https://github.com/myproject/wiki/Scenegraph
