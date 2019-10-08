@@ -26,21 +26,42 @@ Most of the [[traits]] in pivy_trackers create a corresponding scenegraph node s
 
 Included here is a list of each trait (and the base tracker classes) and their corresponding scenegraph node structures
 
-## Coin Group
+## CoinGroup
 
-A Coin Group object is a basic coin3D scenegraph node structure that consists of one or more of the following:
+The CoinGroup class lies at the heart of the pviy-tracker traits and trackers.  This class provdies the base node structure
+for each trait / tracker and determines whether or not the effects of the trait / tracker may be felt beyond
+their sibling / child nodes as well as making them switchable to enable / disable the effect of their nodes.
+
+A CoinGroup object  scenegraph node structure consists of one or two of the following nodes:
 
 Swtich | Group | Separator 
 -------|-------|----------
 [[images/switch.svg]] | [[images/group.svg]] | [[images/separator.svg]]
 
+Specifically, a CoinGroup may be any one of these nodes individually, or a combination of a Swtich node and a Group or Separator node.
+The Switch node may also act as the parent or child of the group / separator node.
+
 ## Trait Structures
 
 ### Base Structure
 
+The Base node strcuture is a swtiched separator:
+
+[[images/switch-separator.svg]]
+
+This node structure provides the greatest control and safety, making it switched, so it can or cannot be traversed,
+as well as separated - insulating the remainder of the scenegraph from it's effects.
+
 ### Drag Structure
 
+ NOT YET IMPLEMENTED
+
 ### Event Structure
+
+The Event node structure is a switched group, allowing it's effects to influence siblings of it's parent switch.
+This node structure may consist of one or more SoEventCallback nodes, which provide node-level input event notification
+for keyboard, mice, and other devices.
+
 
 ### Geometry Structure
 
