@@ -4,9 +4,9 @@ This section goes into detail about the scenegraph node structures generated and
 
 A few links of general information:
 
-[WebGL scenegraph fundamentals](https://webglfundamentals.org/webgl/lessons/webgl-scene-graph.html)<br/>
-[gamedev.net explanation](http://archive.gamedev.net/archive/reference/programming/features/scenegraph/index.html)<br/>
-[StackOverflow question](https://stackoverflow.com/questions/5319282/game-engines-what-are-scene-graphs)
+* [WebGL scenegraph fundamentals](https://webglfundamentals.org/webgl/lessons/webgl-scene-graph.html)
+* [gamedev.net explanation](http://archive.gamedev.net/archive/reference/programming/features/scenegraph/index.html)
+* [StackOverflow question](https://stackoverflow.com/questions/5319282/game-engines-what-are-scene-graphs)
 
 
 Additionally, links to the Coin3D documentation for referenced scenegraph nodes:
