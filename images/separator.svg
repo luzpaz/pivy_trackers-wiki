@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.2" width="31.29mm" height="63.76mm" viewBox="15660 2103 3129 6376" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve">
+<svg version="1.2" width="31.29mm" height="63.76mm" viewBox="15660 2083 3129 6376" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve">
  <defs class="ClipPathGroup">
   <clipPath id="presentation_clip_path" clipPathUnits="userSpaceOnUse">
-   <rect x="15660" y="2103" width="3129" height="6376"/>
+   <rect x="15660" y="2083" width="3129" height="6376"/>
   </clipPath>
   <clipPath id="presentation_clip_path_shrink" clipPathUnits="userSpaceOnUse">
-   <rect x="15663" y="2109" width="3123" height="6364"/>
+   <rect x="15663" y="2089" width="3123" height="6364"/>
   </clipPath>
  </defs>
  <defs class="TextShapeIndex">
@@ -53,22 +53,22 @@
       <g class="Group">
        <g class="com.sun.star.drawing.LineShape">
         <g id="id3">
-         <rect class="BoundingBox" stroke="none" fill="none" x="17105" y="5200" width="381" height="3279"/>
-         <path fill="none" stroke="rgb(114,159,207)" stroke-width="53" stroke-linejoin="round" d="M 17295,5227 L 17295,7747"/>
-         <path fill="rgb(114,159,207)" stroke="none" d="M 17107,7768 L 17257,8440 17260,8454 17269,8467 17281,8475 17294,8478 17309,8475 17321,8467 17330,8454 17333,8440 17483,7768 17483,7763 17485,7760 17481,7746 17473,7733 17460,7725 17446,7722 17144,7722 17130,7725 17117,7733 17108,7746 17106,7760 17106,7763 17107,7768 Z"/>
+         <rect class="BoundingBox" stroke="none" fill="none" x="17105" y="5180" width="381" height="3279"/>
+         <path fill="none" stroke="rgb(114,159,207)" stroke-width="53" stroke-linejoin="round" d="M 17295,5207 L 17295,7727"/>
+         <path fill="rgb(114,159,207)" stroke="none" d="M 17107,7748 L 17257,8420 17260,8434 17269,8447 17281,8455 17294,8458 17309,8455 17321,8447 17330,8434 17333,8420 17483,7748 17483,7743 17485,7740 17481,7726 17473,7713 17460,7705 17446,7702 17144,7702 17130,7705 17117,7713 17108,7726 17106,7740 17106,7743 17107,7748 Z"/>
         </g>
        </g>
        <g class="com.sun.star.drawing.CustomShape">
         <g id="id4">
-         <rect class="BoundingBox" stroke="none" fill="none" x="16765" y="5809" width="1068" height="1070"/>
-         <path fill="rgb(114,159,207)" stroke="none" d="M 17290,6851 L 16792,5836 17805,5840 17290,6851 Z"/>
-         <path fill="none" stroke="rgb(52,101,164)" stroke-width="53" stroke-linejoin="round" d="M 17290,6851 L 16792,5836 17805,5840 17290,6851 Z"/>
+         <rect class="BoundingBox" stroke="none" fill="none" x="16765" y="5789" width="1068" height="1070"/>
+         <path fill="rgb(114,159,207)" stroke="none" d="M 17290,6831 L 16792,5816 17805,5820 17290,6831 Z"/>
+         <path fill="none" stroke="rgb(52,101,164)" stroke-width="53" stroke-linejoin="round" d="M 17290,6831 L 16792,5816 17805,5820 17290,6831 Z"/>
         </g>
        </g>
        <g class="com.sun.star.drawing.CustomShape">
         <g id="id5">
-         <rect class="BoundingBox" stroke="none" fill="none" x="15659" y="2102" width="3131" height="3131"/>
-         <path fill="none" stroke="rgb(52,101,164)" stroke-width="81" stroke-linejoin="round" d="M 17224,2143 C 18088,2143 18748,2803 18748,3667 18748,4531 18088,5191 17224,5191 16360,5191 15700,4531 15700,3667 15700,2803 16360,2143 17224,2143 Z"/>
+         <rect class="BoundingBox" stroke="none" fill="none" x="15659" y="2082" width="3131" height="3131"/>
+         <path fill="none" stroke="rgb(52,101,164)" stroke-width="81" stroke-linejoin="round" d="M 17224,2123 C 18088,2123 18748,2783 18748,3647 18748,4511 18088,5171 17224,5171 16360,5171 15700,4511 15700,3647 15700,2783 16360,2123 17224,2123 Z"/>
         </g>
        </g>
       </g>

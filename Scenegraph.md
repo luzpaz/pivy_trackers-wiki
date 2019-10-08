@@ -45,7 +45,7 @@ The Switch node may also act as the parent or child of the group / separator nod
 
 ### Base Structure
 
-The Base node strcuture is a swtiched separator:
+The Base node structure is a swtiched separator:
 
 [[images/switch-separator.svg]]
 
