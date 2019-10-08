@@ -1,5 +1,5 @@
 # My menu
-* [Home][Pivy_trackers_Documentation]
+* [Home][home]
 * [Technical documentation][techdocs]
 * [User manual][usermanual]
 
