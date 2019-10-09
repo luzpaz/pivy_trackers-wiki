@@ -10,7 +10,15 @@
     * [MarkerTracker](Markertracker)
     * [LineTracker](LineTracker)
 * [Trait Modules](Modules#traits)
-    * [base]
+    * [base](Base-Trait)
+    * [drag](Drag-Trait)
+    * [event](Event-Trait)
+    * [geometry](Geometry-Trait)
+    * [pick](Pick-Trait)
+    * [publisher](Publisher-Trait)
+    * [select](Select-Trait)
+    * [style](Style-Trait)
+    * [subscriber](Subscriber-Trait)
 * [Coin Modules][coin-modules]
 * [Support Modules][support-modules]
 
