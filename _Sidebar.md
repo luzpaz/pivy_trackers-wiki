@@ -1,7 +1,11 @@
-# Table of Contents
 * [Getting Started][home]
-* [Creating Custom Classes][customizing]
-* [Library Classes][classes]
+* [Examples]
+* [Tutorials]
+* [Gallery]
+---
+## API / Modules
+---
+## [Scenegraph][scenegraph]
 * [Scenegraph Structures][scenegraph]
     * [CoinGroup class](Scenegraph#coingroup)
     * [Trait Structures](Scenegraph#trait-structures)
