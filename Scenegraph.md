@@ -64,8 +64,6 @@ for keyboard, mice, and other devices.
 
 
 [[images/event.svg]]
-
-
 ### Geometry Structure
 
 The Geometry trait adds a simple group with a SoTransform and SoCoordinate3 node.  Thus transformations applied
