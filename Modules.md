@@ -12,9 +12,9 @@ A Tracker represents a self-contained scenegraph node structure that is built us
 
 That said, working directly with the pivy/coin API can be a bit tedious and time consuming.  As a result, some basic tracker classes have been developed to help alleviate the effort required to get up and running.  These classes are:
 
-* [GeometryTracker]()
-* [MarkerTracker]()
-* [LineTracker]()
+* [GeometryTracker](GeometryTracker)
+* [MarkerTracker](MarkerTracker)
+* [LineTracker](LineTracker)
 
 *Note:* MarkerTracker and LineTracker may be instanced and used on their own.  GeometryTracker is intended to act as a base for a tracker which displays and manipulates 2D geometries.
 
