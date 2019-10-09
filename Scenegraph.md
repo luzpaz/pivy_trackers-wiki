@@ -42,7 +42,7 @@ Specifically, a CoinGroup may be any one of these nodes individually, or a combi
 The Switch node may also act as the parent or child of the group / separator node.
 
 ## Trait Structures
-
+---
 ### Base Structure
 
 The Base trait creates a switched separator:
@@ -51,11 +51,11 @@ The Base trait creates a switched separator:
 
 This node structure provides the greatest control and safety, making it switched, so it can or cannot be traversed,
 as well as separated - insulating the remainder of the scenegraph from it's effects.
-
+---
 ### Drag Structure
 
  NOT YET IMPLEMENTED
-
+---
 ### Event Structure
 
 The Event trait adds a switched group, allowing it's effects to influence siblings of it's parent switch.
@@ -64,6 +64,7 @@ for keyboard, mice, and other devices.
 
 
 [[images/event.svg]]
+---
 ### Geometry Structure
 
 The Geometry trait adds a simple group with a SoTransform and SoCoordinate3 node.  Thus transformations applied
@@ -72,7 +73,7 @@ to the geometry node will also be aplpied to subsequent sibling / child geometry
 
 [[images/geometry.svg]]
 
-
+---
 ### Pick Structure
 
 The Pick trait adds an SoPickStyle node to the base node group, thus it's a child of the Base SoSeparator node.
@@ -80,7 +81,7 @@ The Pick trait adds an SoPickStyle node to the base node group, thus it's a chil
 
 [[images/pick.svg]]
 
-
+---
 ### Select Structure
 
 The Select trait adds a SoFCSelection node (FreeCAD-specific) to the base node group separator.
@@ -88,16 +89,16 @@ The Select trait adds a SoFCSelection node (FreeCAD-specific) to the base node g
 
 [[images/select.svg]]
 
-
+---
 ### Style Structure
 
 The Style trait adds a SoGroup node with SoBaseColor and SoDrawStyle nodes as immediate children
 Thus, effects of these nodes are applied to all siblings and children following it's traversal
 
 ## Trackers
-
+---
 ### Geometry Tracker Structure
-
+---
 ### Marker Tracker Structure
-
+---
 ### Line Tracker Structure
