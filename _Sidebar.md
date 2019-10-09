@@ -1,4 +1,4 @@
-# My menu
+# Table of Contents
 * [Getting Started][home]
 * [Creating Custom Classes][customizing]
 * [Library Classes][classes]
