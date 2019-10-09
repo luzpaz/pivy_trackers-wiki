@@ -36,9 +36,11 @@ their sibling / child nodes as well as making them switchable to enable / disabl
 
 A CoinGroup object  scenegraph node structure consists of one or two of the following nodes:
 
+<p style="align:center">
 Swtich | Group | Separator 
 -------|-------|----------
 [[images/switch.svg]] | [[images/group.svg]] | [[images/separator.svg]]
+</p>
 
 Specifically, a CoinGroup may be any one of these nodes individually, or a combination of a Swtich node and a Group or Separator node.
 The Switch node may also act as the parent or child of the group / separator node.
