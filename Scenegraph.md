@@ -36,7 +36,7 @@ their sibling / child nodes as well as making them switchable to enable / disabl
 
 A CoinGroup object  scenegraph node structure consists of one or two of the following nodes:
 
-<table style="align:center">
+<table width: auto; margin-left: auto; margin-right: auto>
     <tr>
         <th scope="col">Switch</th>
         <th scope="col">Group</th>
