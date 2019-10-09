@@ -1,10 +1,11 @@
-* [Getting Started][home]
+# Get Started
+* [Home][home]
 * [Examples]
 * [Tutorials]
 * [Gallery]
----
+
+# Technical
 ## API / Modules
----
 ## [Scenegraph][scenegraph]
 * [Scenegraph Structures][scenegraph]
     * [CoinGroup class](Scenegraph#coingroup)
