@@ -102,7 +102,7 @@ Several basic trackers are provided for inclusion in custom tracker classes or t
 for inheritance.  These classes set up and provide fully-functional trackers with a minimum of effort.
 
 ***
-<p align="right"><h3>Geometry Tracker Structure</h3></p>
+<p text-align="right"><h3>Geometry Tracker Structure</h3></p>
 
 <p align="center"><img src="images/geometry_tracker.svg"></p>
 
