@@ -4,8 +4,7 @@
 * [Tutorials]
 * [Gallery]
 
-# Technical
-### [API / Modules](Modules)
+# [API / Modules](Modules)
 * [Trackers](Modules#trackers)
     * [GeometryTracker](GeometryTracker)
     * [MarkerTracker](Markertracker)
@@ -15,7 +14,7 @@
 * [Coin Modules][coin-modules]
 * [Support Modules][support-modules]
 
-### [Scenegraph][scenegraph]
+# [Scenegraph][scenegraph]
 * [CoinGroup class](Scenegraph#coingroup)
 * [Trait Structures](Scenegraph#trait-structures)
     * [Base](Scenegraph#base-structure)
