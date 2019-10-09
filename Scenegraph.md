@@ -47,7 +47,7 @@ The Switch node may also act as the parent or child of the group / separator nod
 
 The Base trait creates a switched separator:
 
-<a href="url"><img src="images/switch-separator.svg" align="center"></a>
+<p align="center"><img src="images/switch-separator.svg" align="center"></p>
 <!-- ![Base Node Structure](images/switch-separator.svg) -->
 
 This node structure provides the greatest control and safety, making it switched, so it can or cannot be traversed,
