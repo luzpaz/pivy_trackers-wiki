@@ -5,12 +5,12 @@
 * [Gallery]
 
 # [API / Modules](Modules)
-* [Trackers](Modules#trackers)
+## [Trackers](Modules#trackers)
     * [GeometryTracker](GeometryTracker)
     * [MarkerTracker](MarkerTracker)
     * [LineTracker](LineTracker)
 
-* [Trait Modules](Modules#traits)
+## [Trait Modules](Modules#traits)
     * [base](Base-Trait)
     * [drag](Drag-Trait)
     * [event](Event-Trait)
@@ -21,13 +21,13 @@
     * [style](Style-Trait)
     * [subscriber](Subscriber-Trait)
 
-* [Coin Modules](coin-modules)
+## [Coin Modules](coin-modules)
     * [coin_enums](coin_enums)
     * [coin_group](coin_group)
     * [coin_styles](coin_styles)
     * [coin_utils](coin_utils)
 
-* [Support Modules](support-modules)
+## [Support Modules](support-modules)
     * [button_state](button_state)
     * [const](const)
     * [mouse_state](mouse_state)
@@ -40,7 +40,7 @@
 * [Examples](examples-modules)
     * [Marker and Line Tracker](Example-Marker-and-Line-Tracker )
 
-# [Scenegraph][scenegraph]
+# [Scenegraph](scenegraph)
 * [CoinGroup class](Scenegraph#coingroup)
 
 * [Trait Structures](Scenegraph#trait-structures)
