@@ -47,7 +47,7 @@ The Switch node may also act as the parent or child of the group / separator nod
 
 The Base trait creates a switched separator:
 
-[[images/switch-separator.svg]]
+![Base Node Structure](images/switch-separator.svg)
 
 This node structure provides the greatest control and safety, making it switched, so it can or cannot be traversed,
 as well as separated - insulating the remainder of the scenegraph from it's effects.
@@ -63,7 +63,7 @@ This node structure may consist of one or more SoEventCallback nodes, which prov
 for keyboard, mice, and other devices.
 
 
-[[images/event.svg]]
+![Event Node Structure](images/event.svg)
 ***
 ### Geometry Structure
 
