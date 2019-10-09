@@ -24,7 +24,7 @@ Additionally, links to the Coin3D documentation for referenced scenegraph nodes:
 * [SoSwitch](https://grey.colorado.edu/coin3d/classSoSwitch.html)
 * [SoTransform](https://grey.colorado.edu/coin3d/classSoTransform.html)
 
-Most of the [[traits]] in pivy_trackers create a corresponding scenegraph node structure to provide it's functionality.
+Most of the [traits](Modules#traits) in pivy_trackers create a corresponding scenegraph node structure to provide it's functionality.
 
 Included here is a list of each trait (and the base tracker classes) and their corresponding scenegraph node structures
 
