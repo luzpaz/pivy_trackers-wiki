@@ -4,7 +4,7 @@
 * [Tutorials]
 * [Gallery]
 
-# [API / Modules](Modules)
+# [Module API](Modules)
 ### [Trackers](Modules#trackers)
 * [GeometryTracker](GeometryTracker)
 * [MarkerTracker](MarkerTracker)
