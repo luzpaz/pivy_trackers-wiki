@@ -47,7 +47,8 @@ The Switch node may also act as the parent or child of the group / separator nod
 
 The Base trait creates a switched separator:
 
-![Base Node Structure](images/switch-separator.svg)
+<img src="images/switch-separator.svg" align="center">
+<!-- ![Base Node Structure](images/switch-separator.svg) -->
 
 This node structure provides the greatest control and safety, making it switched, so it can or cannot be traversed,
 as well as separated - insulating the remainder of the scenegraph from it's effects.
