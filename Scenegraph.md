@@ -35,8 +35,7 @@ for each trait / tracker and determines whether or not the effects of the trait 
 their sibling / child nodes as well as making them switchable to enable / disable the effect of their nodes.
 
 A CoinGroup object  scenegraph node structure consists of one or two of the following nodes:
-
-
+<br>
 <table margin: 0 auto>
     <tr>
         <th scope="col">Switch</th>
@@ -49,8 +48,7 @@ A CoinGroup object  scenegraph node structure consists of one or two of the foll
         <td><img src="images/separator.svg"></td>
     </tr>
 </table>
-
-
+<br>
 Specifically, a CoinGroup may be any one of these nodes individually, or a combination of a Swtich node and a Group or Separator node.
 The Switch node may also act as the parent or child of the group / separator node.
 
