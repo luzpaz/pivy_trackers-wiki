@@ -96,13 +96,13 @@ The Style trait adds a SoGroup node with SoBaseColor and SoDrawStyle nodes as im
 Thus, effects of these nodes are applied to all siblings and children following it's traversal
 
 ***
-## <p text-align="right">Tracker Structures</p>
+## Tracker Structures
 
 Several basic trackers are provided for inclusion in custom tracker classes or to serve as base classes
 for inheritance.  These classes set up and provide fully-functional trackers with a minimum of effort.
 
 ***
-### Geometry Tracker Structure
+<p align="right"><h3>Geometry Tracker Structure</h3></p>
 
 <p align="center"><img src="images/geometry_tracker.svg"></p>
 
