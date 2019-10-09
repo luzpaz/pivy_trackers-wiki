@@ -5,7 +5,16 @@
 * [Gallery]
 
 # Technical
-### API / Modules
+### [API / Modules](Modules)
+* [Trackers](Modules#trackers)
+    * [GeometryTracker](GeometryTracker)
+    * [MarkerTracker](Markertracker)
+    * [LineTracker](LineTracker)
+* [Trait Modules](Modules#traits)
+    * [base]
+* [Coin Modules][coin-modules]
+* [Support Modules][support-modules]
+
 ### [Scenegraph][scenegraph]
 * [CoinGroup class](Scenegraph#coingroup)
 * [Trait Structures](Scenegraph#trait-structures)
