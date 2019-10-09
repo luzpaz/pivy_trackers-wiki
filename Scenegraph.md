@@ -12,7 +12,7 @@ A few links of general information:
 Additionally, links to the Coin3D documentation for referenced scenegraph nodes:
 
 * [SoBaseColor](https://grey.colorado.edu/coin3d/classSoBaseColor.html)
-* [SoCoordinate3](https://grey.colorado.edu/coin3d/classSoCoordinate3.html))
+* [SoCoordinate3](https://grey.colorado.edu/coin3d/classSoCoordinate3.html)
 * [SoDrawStyle](https://grey.colorado.edu/coin3d/classSoDrawStyle.html)
 * [SoEventCallback](https://grey.colorado.edu/coin3d/classSoEventCallback.html)
 * [SoFCSelection]
