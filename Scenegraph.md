@@ -45,10 +45,8 @@ The Switch node may also act as the parent or child of the group / separator nod
 ***
 ### Base Structure
 
-The Base trait creates a switched separator:
 
-<p align="center"><img src="images/switch-separator.svg" align="center"></p>
-<!-- ![Base Node Structure](images/switch-separator.svg) -->
+<p align="center"><img src="images/switch-separator.svg"></p>
 
 This node structure provides the greatest control and safety, making it switched, so it can or cannot be traversed,
 as well as separated - insulating the remainder of the scenegraph from it's effects.
@@ -59,39 +57,38 @@ as well as separated - insulating the remainder of the scenegraph from it's effe
 ***
 ### Event Structure
 
+
+<p align="center"><img src="images/event.svg"></p>
+
 The Event trait adds a switched group, allowing it's effects to influence siblings of it's parent switch.
 This node structure may consist of one or more SoEventCallback nodes, which provide node-level input event notification
 for keyboard, mice, and other devices.
-
-
-![Event Node Structure](images/event.svg)
 ***
 ### Geometry Structure
 
+
+<p align="center"><img src="images/geometry.svg"></p>
+
 The Geometry trait adds a simple group with a SoTransform and SoCoordinate3 node.  Thus transformations applied
 to the geometry node will also be aplpied to subsequent sibling / child geometry nodes
-
-
-[[images/geometry.svg]]
-
 ***
 ### Pick Structure
 
+
+<p align="center"><img src="images/pick.svg"></p>
+
 The Pick trait adds an SoPickStyle node to the base node group, thus it's a child of the Base SoSeparator node.
-
-
-[[images/pick.svg]]
-
 ***
 ### Select Structure
 
+
+<p align="center"><img src="images/select.svg"></p>
+
 The Select trait adds a SoFCSelection node (FreeCAD-specific) to the base node group separator.
-
-
-[[images/select.svg]]
-
 ***
 ### Style Structure
+
+<p align="center"><img src="images/style.svg"></p>
 
 The Style trait adds a SoGroup node with SoBaseColor and SoDrawStyle nodes as immediate children
 Thus, effects of these nodes are applied to all siblings and children following it's traversal
@@ -99,7 +96,15 @@ Thus, effects of these nodes are applied to all siblings and children following 
 ## Trackers
 ***
 ### Geometry Tracker Structure
+
+<p align="center"><img src="geometry_tracker.svg"></p>
+
 ***
 ### Marker Tracker Structure
+
+<p align="center"><img src="marker_tracker.svg"></p>
+
 ***
 ### Line Tracker Structure
+
+<p align="center"><img src="line_tracker.svg"></p>
