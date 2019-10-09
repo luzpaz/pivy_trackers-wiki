@@ -97,14 +97,14 @@ Thus, effects of these nodes are applied to all siblings and children following 
 ***
 ### Geometry Tracker Structure
 
-<p align="center"><img src="geometry_tracker.svg"></p>
+<p align="center"><img src="images/geometry_tracker.svg"></p>
 
 ***
 ### Marker Tracker Structure
 
-<p align="center"><img src="marker_tracker.svg"></p>
+<p align="center"><img src="images/marker_tracker.svg"></p>
 
 ***
 ### Line Tracker Structure
 
-<p align="center"><img src="line_tracker.svg"></p>
+<p align="center"><img src="images/line_tracker.svg"></p>
