@@ -41,7 +41,7 @@
 * [Marker and Line Tracker](Example-Marker-and-Line-Tracker )
 
 # [Scenegraph](scenegraph)
-### [CoinGroup class](Scenegraph#coingroup)
+### [CoinGroup Structure](Scenegraph#coingroup)
 
 ### [Trait Structures](Scenegraph#trait-structures)
 * [Base](Scenegraph#base-structure)
