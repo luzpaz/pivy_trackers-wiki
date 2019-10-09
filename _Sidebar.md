@@ -3,7 +3,7 @@
 * [Creating Custom Classes][customizing]
 * [Library Classes][classes]
 * [Scenegraph Structures][scenegraph]
-    * [item]
+    * [CoinGroup class][coingroup]
 
 [home]: https://github.com/joelgraff/pivy_trackers/wiki
 [customizing]: https://github.com/joelgraff/pivy_trackers/wiki/Customizing
