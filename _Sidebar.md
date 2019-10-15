@@ -40,7 +40,7 @@
 * [!publisher_events](publisher_events)
 * [singleton](singleton)
 * [!smart_tuple](smart_tuple)
-* [!todo](todo)
+* [todo](todo)
 * [!view_state](view_state)
 
 ### [Examples](examples-modules)
