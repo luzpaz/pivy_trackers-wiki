@@ -2,7 +2,7 @@
 
 ### Note:  
 
-#### Currently under construction.  Items with incomplete documentation are indicated in the sidebar with a n excalamation point (!) preceding the page name.
+#### _Currently under construction._  Items with incomplete documentation are indicated in the sidebar with an excalamation point (!) preceding the page name.
 
 ## Installing
 
