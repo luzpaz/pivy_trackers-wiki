@@ -27,7 +27,7 @@ Returns the enumerant name based on the passed integer value which represents th
 
 **Note:**
 
-*These methods are static members of a Const class, though they do not employ the `@staticmethod` decoration*
+These methods are static members of a Const class, though they do not employ the `@staticmethod` decoration
 
 ## Enumerants
 
