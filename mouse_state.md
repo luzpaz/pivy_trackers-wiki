@@ -2,7 +2,7 @@
 
 MouseState maintains state tracking for mouse clicks, movement and dragging.  ButtonState is a helper class used by MouseState
 
-MouseState is implemented as a [Singleton](singleton) to provide a globally-accessible state object.
+MouseState is implemented as a [Singleton](singleton) to provide a globally-accessible state object and does not, therefore, need to be instanced apart from calling the class directly.
 
 # API
 
@@ -56,4 +56,43 @@ Difference between previous world position and current world position after the 
 3-tuple of the mouse cursor world position in document units
 
 ## Methods
+### _udpate_button_state()
+    MouseState()._update_button_state(self, arg, view_state):
+Update the ButtonState() objects.  Used internally by MouseState().update()
+
+### _update_state()
+    MouseState()_update_state(self, arg, view_state):
+Updates mouse key press and position information.  Used internally by MouseState().update()
+
+### _update_component_state()
+    MouseState()._update_component_state(self, info):
+Update the component and object attribtues.  Used internally by MouseState().update()
+
+### set_mouse_position()
+    MouseSate().set_mouse_position(self, view_state, coord)
+Force-set the position of the mouse cursor, provided a view and a coordinate location in world coordinates.
+Depends on PySide.QtGui.QCursor
+
+### update()
+    update(self, arg, view_state)
+Update the mouse state.
+
+* arg - arguments returned from an SoEventCallback event either as a `dict` or as `SoEventCallback`
+* view_state - current view state
+
+Update() calls _update_state(), _update_button_state() and _update_component_state().
+
 # Example
+
+    import FreeCADGui as Gui
+    from pivy_trackers.support.mouse_state import MouseState
+
+    _view = Gui.ActiveDocument.ActiveView
+
+    def mouse_event(arg):
+        MouseState().update(arg, _view)
+
+        if MouseState().button1.pressed:
+        print('button1 pressed!')
+
+    _view.addEventCallback('SoLocation2Event', mouse_event)
