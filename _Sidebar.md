@@ -6,9 +6,9 @@
 
 # [Module API](Modules)
 ### [Trackers](Modules#trackers)
-* [GeometryTracker](_GeometryTracker)
-* [MarkerTracker](_MarkerTracker)
-* [LineTracker](_LineTracker)
+* [GeometryTracker](#GeometryTracker)
+* [MarkerTracker](#MarkerTracker)
+* [LineTracker](#LineTracker)
 
 ### [Traits](Modules#traits)
 * [base](Base-Trait)
