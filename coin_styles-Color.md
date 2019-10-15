@@ -35,6 +35,6 @@ Scale the passed color by the value in the range [0.0, 1.0]
 
 ## Example
 
-from pivy_trackers.coin.coin_styles.CoinStyles import Color
+    from pivy_trackers.coin.coin_styles.CoinStyles import Color
 
-_color = Color.scale(Color.Gold, .35)
+    _color = Color.scale(Color.Gold, .35)
