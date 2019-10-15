@@ -1,8 +1,9 @@
 # Getting Started
 
 ### Note:  
+#### _Currently under construction._  
 
-#### _Currently under construction._  Items with incomplete documentation are indicated in the sidebar with an excalamation point (!) preceding the page name.
+Items with incomplete documentation are indicated in the sidebar with an excalamation point (!) preceding the page name.
 
 ## Installing
 
