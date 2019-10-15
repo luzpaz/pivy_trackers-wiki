@@ -25,7 +25,8 @@ Returns the enumerant based on the passed shape (String) and size (Integer) para
 Returns the enumerant name based on the passed integer value which represents the `SoMarkerSet.markerIndex` value.
 
 **Note:**
-*These methods are static members of a Const class, though they do not employ the @staticmethod decoration
+
+*These methods are static members of a Const class, though they do not employ the @staticmethod decoration*
 
 ## Enumerants
 
@@ -120,4 +121,4 @@ Returns the enumerant name based on the passed integer value which represents th
     SATELLITE_FILLED_9 = coin.SoMarkerSet.SATELLITE_FILLED_9_9
     PINE_TREE_FILLED_9 = coin.SoMarkerSet.PINE_TREE_FILLED_9_9
     CAUTION_FILLED_9 = coin.SoMarkerSet.CAUTION_FILLED_9_9
-    SHIP_FILLED_9
+    SHIP_FILLED_9 = coin.SoMarkerSet.SHIP_FILLED_9_9
