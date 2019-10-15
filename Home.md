@@ -1,6 +1,8 @@
 # Getting Started
 
-### Note:  Wiki is currently under construction.  Items with incomplete documentation are indicated in the sidebar with a n excalamation piont (!) preceding the page name.
+### Note:  
+
+#### Currently under construction.  Items with incomplete documentation are indicated in the sidebar with a n excalamation point (!) preceding the page name.
 
 ## Installing
 
