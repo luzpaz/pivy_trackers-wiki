@@ -22,7 +22,7 @@
 * [!subscriber](Subscriber-Trait)
 
 ### [Coin](coin-modules)
-* [!coin_enums](coin_enums)
+* [coin_enums](coin_enums)
     * [MarkerStyles](coin_enums-MarkerStyles)
     * [MouseEvents](coin_enums-MouseEvents)
     * [NodeTypes](coin_enums-NodeTypes)
