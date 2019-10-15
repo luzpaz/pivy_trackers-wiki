@@ -11,7 +11,7 @@ The Base trait provides common core features for other traits:
 
 The API is composed of the following sections:
 
-* [Prototypes](Base-Trait#ProtoTypes)
+* [Prototypes](Base-Trait#Prototypes)
 * Statics(Base-Trait#Statics)
 * Class Members(Base-Trait#Members)
 
@@ -19,7 +19,7 @@ The API is composed of the following sections:
 
     set_style(self, style=None, draw=None, color=None)
 
-    Overridden by the Style trait, if inherited.
+Overridden by the Style trait, if inherited.
 
 ## Statics
 
