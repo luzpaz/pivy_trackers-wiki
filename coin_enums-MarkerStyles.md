@@ -6,7 +6,8 @@ Additionally, static methods are provided to facilitate constructing the marker 
 
 Marker styles consist of 20 different types:
 
-    CROSS, PLUS, MINUS, SLASH, BACKSLASH, BAR, STAR, Y, LIGHTNING, WELL, CIRCLE, SQUARE, DIAMOND, TRIANGLE, RHOMBUS,  HOURGLASS, SATELLITE, PINE_TREE, CAUTION, SHIP
+    CROSS, PLUS, MINUS, SLASH, BACKSLASH, BAR, STAR, Y, LIGHTNING, WELL,
+    CIRCLE, SQUARE, DIAMOND, TRIANGLE, RHOMBUS,  HOURGLASS, SATELLITE, PINE_TREE, CAUTION, SHIP
 
 The latter 10 types (CIRCLE through SHIP) have alternate LINE and FILLED representations.
 
