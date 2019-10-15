@@ -11,7 +11,7 @@ The CoinStyles class consists of two constant child classes:
 
 # Example
 
-    from coin_styles import CoinStyles as Styles
+    from pivy_trackers.coin.coin_styles import CoinStyles as Styles
 
     #Create a custom style using the 'dashed' draw style as a template, setting the color to green
     my_style = Styles.Style('dashed', color=Styles.Color.GREEN)
