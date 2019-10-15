@@ -1,5 +1,7 @@
 # Getting Started
 
+### Note:  Wiki is currently under construction.  Items with incomplete documentation are indicated in the sidebar with a n excalamation piont (!) preceding the page name.
+
 ## Installing
 
 Installation is straightforward.  Simply clone the project into a path visible through your project's top-level module:
