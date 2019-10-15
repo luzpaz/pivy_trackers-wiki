@@ -41,7 +41,7 @@
 * [singleton](singleton)
 * [!smart_tuple](smart_tuple)
 * [todo](todo)
-* [!view_state](view_state)
+* [view_state](view_state)
 
 ### [Examples](examples-modules)
 * [!Marker and Line Tracker](Example-Marker-and-Line-Tracker )
