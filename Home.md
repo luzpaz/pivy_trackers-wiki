@@ -2,8 +2,7 @@
 
 ### Note:  
 #### _Currently under construction._  
-<br>
-Items with incomplete documentation are indicated in the sidebar with an excalamation point (!) preceding the page name.
+#### Items with incomplete documentation are indicated in the sidebar with an excalamation point (!) preceding the page name.
 
 ## Installing
 
