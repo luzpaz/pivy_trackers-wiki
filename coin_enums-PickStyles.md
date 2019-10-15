@@ -1,8 +1,8 @@
-#Overview
+# Overview
 
 The PickStyles class provides enumerants for coin3D picking techniques for the `SoPickStyle` class.
 
-#API
+# API
 
     UNPICKABLE = coin.SoPickStyle.UNPICKABLE
     SHAPE = coin.SoPickStyle.SHAPE
