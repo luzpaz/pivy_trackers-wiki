@@ -23,6 +23,10 @@
 
 ### [Coin](coin-modules)
 * [!coin_enums](coin_enums)
+    * [MarkerStyles](coin_enum-MarkerStyles)
+    * [MouseState](coin_enum-MouseState)
+    * [NodeTypes](coin_enum-NodeTypes)
+    * [PickStyles](coin_enum-PickStyles)
 * [!coin_group](coin_group)
 * [!coin_styles](coin_styles)
 * [!coin_utils](coin_utils)
