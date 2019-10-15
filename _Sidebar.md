@@ -11,7 +11,7 @@
 * [!LineTracker](#LineTracker)
 
 ### [Traits](Modules#traits)
-* [!base](Base-Trait)
+* [base](Base-Trait)
 * [!drag](Drag-Trait)
 * [!event](Event-Trait)
 * [!geometry](Geometry-Trait)
