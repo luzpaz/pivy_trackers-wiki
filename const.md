@@ -12,9 +12,12 @@ MetaConst is used internally.  Classes should only inherit Const.
 
     from pivy_trackers.support.const import Const
 
-    MyPythonConstClass(Const)
+    PythonConst(Const):
 
-    OBJECT_NAME = 'Holy Hand Grenade'
-    OBJECT_COUNT_BEFORE_THROWING = 3
+        OBJECT_NAME = 'Holy Hand Grenade'
+        OBJECT_COUNT_BEFORE_THROWING = 3
+
+    print ('Thou shalt count to {} before throwing thy {}'\
+               .format(str(PthyonConst.OBJECT_COUNT_BEFORE_THROWING), PythonConst.OBJECT_NAME)
 
 Const does not enforce Const-ness beyond the class itself.  Thus, any object references within the const class must be either primitive types or class objects which inherit Const to maintain immutability.
