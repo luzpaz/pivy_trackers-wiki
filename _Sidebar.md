@@ -31,7 +31,7 @@
 * [coin_styles](coin_styles)
     * [Color](coin_styles-color)
     * [Style](coin_styles-style)
-* [!coin_utils](coin_utils)
+* [coin_utils](coin_utils)
 
 ### [Support](support-modules)
 * [!button_state](button_state)
