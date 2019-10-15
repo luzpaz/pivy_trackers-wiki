@@ -9,7 +9,7 @@ Classes defined with in coin_enums inherit the [Const](const) class.
 The API is divided across several classes:
 
 * [MarkerStyles](coin_enums-MarkerStyles)
-* [MouseState](coin_enums-MouseState)
+* [MouseEvents](coin_enums-MouseEvents)
 * [NodeTypes](coin_enums-NodeTypes)
 * [PickStyles](coin_enums-PickStyles)
 
