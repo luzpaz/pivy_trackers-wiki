@@ -38,7 +38,7 @@
 * [const](const)
 * [mouse_state](mouse_state)
 * [!publisher_events](publisher_events)
-* [!singleton](singleton)
+* [singleton](singleton)
 * [!smart_tuple](smart_tuple)
 * [!todo](todo)
 * [!view_state](view_state)
