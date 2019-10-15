@@ -2,7 +2,7 @@
 
 The Event trait class provides event callback support to nodes in the scenegraph.  Event callbacks may be global (responding to any event of the appropriate type), or *pathed* such that they respond only to events which occur on a specific scenegraph node path.
 
-"Pathed" events prevent callbacks from being triggered unless a specific node (typically `SoMarkerSet` or 'SoLineSet`) is clicked.  This provides overall efficiency where large numbers of interactive geometry / trackers are generated and it is recommended as the default way to implement a callback.  If a global callback is required, consider using the [ViewState](view_state) class event callback methods to apply callbacks at the view level.
+"Pathed" events prevent callbacks from being triggered unless a specific node (typically `SoMarkerSet` or `SoLineSet`) is clicked.  This provides overall efficiency where large numbers of interactive geometry / trackers are generated and it is recommended as the default way to implement a callback.  If a global callback is required, consider using the [ViewState](view_state) class event callback methods to apply callbacks at the view level.
 
 # API
 
