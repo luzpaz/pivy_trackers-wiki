@@ -1,7 +1,9 @@
 # Overview
 
-The Publisher class is used in tandem with the [Subscriber class](subscriber_events) to provide object-level event notification and handling.  This level of communication happens strictly within Python, apart from Coin3D and enables interaction between tracker objects, as well as UI elements.
+The PublisherEvents class provides event definitions to be used in tandem with the [Publisher](Publisher-Trait) and [Subscriber](Subscriber-Trait) trait classes.  Together, these classes form an inter-object messaging system modeled on the well-documented publisher / subscriber pattern.
 
-Object-level events make it possible to update UI controls (like text boxes) based on changes which occur in a tracker, or vice-versa.
+PublisherEvents defines events categorized by various UI / object layers.
 
-The publisher / subscriber pattern is well-documented and used here with a custom event definition class, [PublisherEvents]
+That is, an event is described as part of a layer, which encapsulates a portion of the application in some form.  For example, there may be task-level events, or events triggered by changes in geometry, or changes at the tracker level.
+
+Which each of these layers, specific events are defined.  Events are generated as powers-of-two, enabling them to be compounded by bitwise operations.
