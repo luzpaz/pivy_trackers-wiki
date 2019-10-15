@@ -34,7 +34,7 @@
 * [coin_utils](coin_utils)
 
 ### [Support](support-modules)
-* [!button_state](button_state)
+* [button_state](button_state)
 * [!const](const)
 * [!mouse_state](mouse_state)
 * [!publisher_events](publisher_events)
