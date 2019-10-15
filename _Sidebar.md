@@ -36,7 +36,7 @@
 ### [Support](support-modules)
 * [button_state](button_state)
 * [const](const)
-* [!mouse_state](mouse_state)
+* [mouse_state](mouse_state)
 * [!publisher_events](publisher_events)
 * [!singleton](singleton)
 * [!smart_tuple](smart_tuple)
