@@ -93,3 +93,11 @@ Remove a node from the graph
 ### set_visibility()
     set_visibility(self, visible=True)
 Toggles the graph's visibility setting `self.switch.whichChild` to either 0 or -1.
+
+## Example
+    from pivy_trackers.coin.coin_group import CoinGroup
+    from pivy_trackers.coin.coin_enums import NodeTypes as Nodes
+
+    group = CoinGroup(is_separator=True, is_switched=True, name='example_group1')
+    group.add_node(Nodes.PICKER, 'picker')
+    group.dump()
