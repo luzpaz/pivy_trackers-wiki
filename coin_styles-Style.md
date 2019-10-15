@@ -39,11 +39,15 @@ Color for `SoBaseColor` node in RGB format, value ranges [0.0, 1.0]
 ## Methods
 
 ### __init__()
-    __init__(self, style_id, style=coin.SoDrawStyle.FILLED,
-             shape='CIRCLE_FILLED', line_width=0.0, point_size=0.0,
-             line_pattern=0xffff, size=9, color=(1.0, 1.0, 1.0))
+    __init__(self, style_id, base_style=None,
+             style=coin.SoDrawStyle.FILLED,
+             shape='CIRCLE_FILLED', line_wdith=0.0,
+             line_pattern=0xffff, size=9, color=(1.0, 1.0, 1.0)):
 
 Constructor requires only a style_id be specified, providing a name for the style.
+
+If a base style is specified, values are populated from that.  Any parameters defined afterward will override the
+base style values.
 
 ## Example
 
