@@ -27,7 +27,7 @@
     * [MouseEvents](coin_enums-MouseEvents)
     * [NodeTypes](coin_enums-NodeTypes)
     * [PickStyles](coin_enums-PickStyles)
-* [!coin_group](coin_group)
+* [coin_group](coin_group)
 * [!coin_styles](coin_styles)
 * [!coin_utils](coin_utils)
 
