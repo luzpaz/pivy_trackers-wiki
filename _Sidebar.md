@@ -12,7 +12,7 @@
 
 ### [Traits](Modules#traits)
 * [base](Base-Trait)
-* [!drag](Drag-Trait)
+* [!drag](Drag-Trait) (Unimplemented)
 * [!event](Event-Trait)
 * [!geometry](Geometry-Trait)
 * [!pick](Pick-Trait)
