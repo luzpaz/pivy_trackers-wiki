@@ -36,9 +36,9 @@ Provides attribute initial values
     button.reset()
 Resets the button values by calling __init__()
 
-## Example
+# Example
 
     from pivy_trackers.support.button_state import ButtonState
 
-   button = ButtonState()
-   button.pressed = True
+    button = ButtonState()
+    button.pressed = True
