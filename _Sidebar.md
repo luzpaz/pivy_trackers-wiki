@@ -28,7 +28,7 @@
     * [NodeTypes](coin_enums-NodeTypes)
     * [PickStyles](coin_enums-PickStyles)
 * [coin_group](coin_group)
-* [!coin_styles](coin_styles)
+* [coin_styles](coin_styles)
     * [Color](coin_styles-color)
     * [Style](coin_styles-style)
 * [!coin_utils](coin_utils)
