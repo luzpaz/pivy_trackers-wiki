@@ -21,5 +21,5 @@ The API is divided across several classes:
 
     def create_coin_node():
 
-        #creates a new coin3D node, adding it to the parent, if specified, and returning a reference
+        #creates/ returns a new coin3D node, adding it to the parent (if specified).
         my_group = utils.add_child(Nodes.SWITCH, None, 'my_switch')
