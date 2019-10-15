@@ -24,7 +24,7 @@
 ### [Coin](coin-modules)
 * [!coin_enums](coin_enums)
     * [MarkerStyles](coin_enums-MarkerStyles)
-    * [MouseState](coin_enums-MouseState)
+    * [MouseEvents](coin_enums-MouseEvents)
     * [NodeTypes](coin_enums-NodeTypes)
     * [PickStyles](coin_enums-PickStyles)
 * [!coin_group](coin_group)
