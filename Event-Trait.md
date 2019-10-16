@@ -111,11 +111,13 @@ Switch event callbacks on or off
 
         super().__init__(name='my_tracker', parent=None)
 
-        #Add a mouse movement and button event callback, creating a new `SoEventCallback` node automatically
+        #Add a mouse movement and button event callback,
+        #creating a new `SoEventCallback` node automatically
         self.add_mouse_event(self.my_mouse_event)
         self.add_button_event(self.my_button_event)
 
-        #Append None to the path_nodes array to ensure the first `SoEventCallback` node is not pathed
+        #Append None to the path_nodes array to ensure
+        #the first `SoEventCallback` node is not pathed
         self.path_nodes.append(None)
         
         #Manually add a second callback node
