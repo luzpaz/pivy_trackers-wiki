@@ -17,7 +17,7 @@
 * [geometry](Geometry-Trait)
 * [pick](Pick-Trait)
 * [!publisher](Publisher-Trait)
-* [!select](Select-Trait)
+* [select](Select-Trait)
 * [!style](Style-Trait)
 * [!subscriber](Subscriber-Trait)
 
