@@ -48,155 +48,102 @@ Internal class event callback for updating mouse state
     def _event_button_event(self, data, event_cb)
 Internal class event callback for updating button state
 
+### add_button_event()
+    add_button_event(self, callback):
+Convenience function to add a mouse button (`SoMouseButtonEvent`) event callback to the `events` group
+
+### add_event_callback()
+    add_event_callback(self, event_type, callback, index=-1)
+Adds a callback to the last-created `SoEventCallback` node.  If none exist, one is created.
+
+* event_type - The class of the event to be created <br>(e.g. `coin.SoLocation2Event.getClassTypeId()` or `coin_enums.MouseEvents.LOCATION2`)
+* callback - A reference to the Python callback function
+* index - Index of the `SoEventCallback`node to which the callback should be added.  If -1, the last-created node is used.
+
+### add_event_callback_node()
+    add_event_callback_node(self)
+Adds a `SoEventCallback` node to the group node referenced by `event`.  Use `add_event_callback` to add callbacks to the Event class trait.
+
+### add_mouse_event()
+    add_mouse_event(self, callback)
+Convenience function to add a mouse (`SoLocation2Event`) event callback to the `events` group
+
+### events_enabled
+    events_enabled(self)
+Returns whether or not event switch has enabled the event callback nodes
+
+### remove_button_event()
+    remove_button_event(self, callback)
+Convenience function to remove a mouse (`SoMouseButtonEvent`) event callback from the `events` group
+
+### remove_event_callback()
+    remove_event_callback(self, event_type, callback, index=-1)
+Remove an event callback.  Removes the corresponding node if all callbacks are deleted.
+
+### remove_event_callback_node()
+    remove_event_callback_node(self, index)
+Remove the `SoEventCallback` node from the `event` group at `index`.  Use `remove_event_callback()` to remove callbacks instead.
+
+### remove_mouse_event()
+    remove_mouse_event(self, callback)
+Convenience function to remove a mouse (`SoLocation2Event`) event callback from the `events` group
+
+### set_event_paths()
+    set_event_paths(self)
+Set paths for all `SoEventCallback` nodes.  Typically performed immediately after graph is inserted into scenegraph
+
+### toggle_event_callbacks()
+    toggle_event_callbacks(self)
+Switch event callbacks on or off
+
+
 # Example
 
+    from pivy_trackers.coin.coin_enums import NodeTypes as Nodes
 
+    from pivy_trackers.trait.base import Base
+    from pivy_trackers.trait.event import Event
+    from pivy_trackers.trait.geometry import Geometry
 
+    class my_tracker(Base, Event, Geometry):
 
-    def add_event_callback_node(self):
-        """
-        Add an event callback node to the current group
-        """
+    def __init__(self):
 
-        self.event.callbacks.append(
-            self.event.add_node(Nodes.EVENT_CB, 'EVENT_CALLBACK')
-        )
+        super().__init__(name='my_tracker', parent=None)
 
-        self.callbacks.append({})
+        #Add a mouse movement and button event callback, creating a new `SoEventCallback` node automatically
+        self.add_mouse_event(self.my_mouse_event)
+        self.add_button_event(self.my_button_event)
 
-    def remove_event_callback_node(self, node):
-        """
-        Remove an event callback node from the current group
-        """
+        #Append None to the path_nodes array to ensure the first `SoEventCallback` node is not pathed
+        self.path_nodes.append(None)
+        
+        #Manually add a second callback node
+        self.add_callback_node()
 
-        if node not in self.event.callbacks:
-            return
+        #Add new callbacks (will be added automatically to last-created callback node)
+        self.add_mouse_event(self.my_pathed_mouse_event)
+        self.add_button_event(self.my_pathed_button_event)
 
-        self.event.remove_node(node)
+        #Create some geometry
+        _marker = self.geometry.add_node(Nodes.MARKER_SET, 'my_marker')
 
-        _index = self.event.callbacks.index(node)
+        #Add a reference to the geometry for creating a path
+        self.path_nodes.append(_marker)
 
-        del self.event.callbacks[_index]
-        del self.callbacks[_index]
+        #Place the geometry at the origin
+        self.geometry.coordinate.point.setValue((0.0, 0.0, 0.0))
+        
 
-    def set_event_paths(self):
-        """
-        Set the specified path on the event callback at the specified index
-        """
+    def my_mouse_event(self, user_data, event_cb):
+        print('my_mouse_event called!')
 
-        if not self.path_nodes:
-            return
+    def my_button_event(self, user_data, event_cb):
+        print('my_button_event called!')
 
-        if len(self.event.callbacks) < len(self.path_nodes):
-            return
+    def my_pathed_mouse_event(self, user_data, event_cb):
+        print('my_pathed_mouse_event called!')
 
-        for _i, _node in enumerate(self.path_nodes):
-            _node = self.path_nodes[_i]
-            _sa = coin_utils.search(_node, self.view_state.sg_root)
-            self.event.callbacks[_i].setPath(_sa.getPath())
+    def my_pathed_button_event(self, user_data, event_cb):
+        print('my_pathed_button_event called!')
 
-    def add_event_callback(self, event_type, callback, index=-1):
-        """
-        Add an event callback
-        """
-
-        #if none exist, add a new one
-        #otherwise default behavior reuses last-created SoEventCb node
-        if not self.event.callbacks:
-            print(self.name, 'adding event cb node')
-            self.add_event_callback_node()
-
-        _et = event_type.getName().getString()
-
-        if not _et in self.callbacks:
-            self.callbacks[index][_et] = {}
-
-        _cbs = self.callbacks[index][_et]
-
-        if callback in _cbs:
-            return
-
-        _cbs[callback] = \
-            self.event.callbacks[index].addEventCallback(event_type, callback)
-
-    def remove_event_callback(self, event_type, callback, index=-1):
-        """
-        Remove an event callback
-        """
-
-        _et = event_type.getName().getString()
-
-        if _et not in self.callbacks:
-            return
-
-        _cbs = self.callbacks[index][_et]
-
-        if callback not in _cbs:
-            return
-
-        self.event.callbacks[index].removeEventCallback(
-            event_type, _cbs[callback])
-
-        del _cbs[callback]
-
-    def add_mouse_event(self, callback):
-        """
-        Convenience function
-        """
-
-        self.add_event_callback(MouseEvents.LOCATION2, callback)
-
-    def add_button_event(self, callback):
-        """
-        Convenience function
-        """
-
-        self.add_event_callback(MouseEvents.MOUSE_BUTTON, callback)
-
-    def remove_mouse_event(self, callback):
-        """
-        Convenience function
-        """
-
-        self.remove_event_callback(MouseEvents.LOCATION2, callback)
-
-    def remove_button_event(self, callback):
-        """
-        Convenience function
-        """
-
-        self.remove_event_callback(MouseEvents.MOUSE_BUTTON, callback)
-
-    def events_enabled(self):
-        """
-        Returns whether or not event switch is on
-        """
-
-        return self.event.whichChild == 0
-
-    def toggle_event_callbacks(self):
-        """
-        Switch event callbacks on / off
-        """
-        #PyLint doesn't detect getValue()
-        #pylint: disable=no-member
-
-        if self.event.whichChild.getValue() == 0:
-            self.event.whichChild = -1
-
-        else:
-            self.event.whichChild = 0
-
-    def set_event_path(self, event_type, message, verbose=False, node=None):
-        """
-        Add / remove path for event callbacks
-        """
-
-        if node is None:
-            node = self.base.path_node
-
-        if node is None:
-            self.event.callback.setPath(self.base.path_node)
-            return
-
-        self.event.callback.setPath(self.base.path_node(node))
