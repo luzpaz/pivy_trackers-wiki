@@ -47,6 +47,7 @@ Returns a list of the coordinate value(s) stored in `coordinate` (specifically, 
 # Example
 
     from pivy_trackers.trait.base import Base
+    from pivy_trackers.trait.event import Event
     from pivy_trackers.trait.geometry import Geometry
 
     class my_tracker(Base, Event, Geometry):
