@@ -6,6 +6,10 @@ The Event trait class provides event callback support to nodes in the scenegraph
 
 # API
 
+## Dependencies
+
+The Event trait depends on the [Base](Base-Trait) trait.
+
 ## Prototypes
 
 The following attributes are prototypes for [Base](Base-Trait) members:
