@@ -31,9 +31,22 @@ Used to set paths on event nodes which have been flagged as requiring an event p
 ## Attributes
 
 ### event
+    event = CoinGroup(switch_first=True, is_separator=False, is_switched=True,
+                      parent=self.base, name=self.name + '__EVENTS')
+Refers to the CoinGroup object containing the `SoEventCallback` nodes
+
 ### event.callbacks
+    event.callbacks = []
+List of references to `SoEventCallback` nodes which have been added to this Event trait instance
+
 ### callbacks
+    callbacks = []
+List of references to Python callback functions which have been added to this Event trait instance
+
 ### path_nodes
+    path_nodes = []
+List of references to coin `SoNode` objects which provide the target path for a `SoEVentCallback` node to be triggered.  These must be rendered nodes, like `SoMarkerSet` or `SoLineSet`.  If multiple `SoEventCallback` nodes exist, do not have the same path (or have no paths), a separate reference in the `path_nodes` list must exist, corresponding to the relevant `SoEventCallback` node.  Where there are fewer path node references that callback node references, the last path node in the list is used for all remaining callback nodes.  See the [example](Event-Trait#Example) for details.
+
 ## Methods
 
 ### __init__()
