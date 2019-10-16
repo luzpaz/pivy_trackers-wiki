@@ -2,7 +2,7 @@
 
 The Geometry Trait creates a graph structure to support nodes that may be rendered onscreen (like `SoMarkerSet` and `SoLineSet`)  The graph structure itself is simple, containing a `SoTransform` and `SoCoordinate` node in a single `SoGroup`.  No actual "renderable" coin nodes are added as a part of the Geometry trait.  Rendering nodes onscreen is pushed to the [GeometryTracker](GeometryTracker) class.
 
-Refer to the [Geometry Trait graph](scenegraph#geometry-structure) for more information.
+Refer to the diagram for the [Geometry scenegraph structure](scenegraph#geometry-structure) for more information.
 
 # API
 
