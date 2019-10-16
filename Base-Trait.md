@@ -16,7 +16,13 @@ The API is composed of the following sections:
 * [Class Attributes](Base-Trait#Attributes)
 * [Class Methods](Base-Trait#Methods)
 
+## Dependencies
+
+None.  The Base Trait inherits the [Publisher](Publisher-Trait) and [Subscriber](Subscriber-Trait).
+
 ## Prototypes
+
+None
 
 ### set_style()
     set_style(self, style=None, draw=None, color=None)
