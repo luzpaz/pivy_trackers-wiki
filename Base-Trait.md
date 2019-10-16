@@ -18,7 +18,7 @@ The API is composed of the following sections:
 
 ## Dependencies
 
-None.  The Base Trait inherits the [Publisher](Publisher-Trait) and [Subscriber](Subscriber-Trait).
+None.  The Base Trait inherits the [Publisher](Publisher-Trait) and [Subscriber](Subscriber-Trait) traits.
 
 ## Prototypes
 
