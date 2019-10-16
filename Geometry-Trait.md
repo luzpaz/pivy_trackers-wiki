@@ -60,4 +60,4 @@ Returns a list of the coordinate value(s) stored in `coordinate` (specifically, 
         _marker = self.geometry.add_node(Nodes.MARKER_SET, 'my_marker')
 
         #Place the geometry at the origin
-        self.geometry.set_coordinate((0.0, 0.0, 0.0))
+        self.geometry.set_coordinates((0.0, 0.0, 0.0))
