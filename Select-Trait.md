@@ -92,4 +92,7 @@ Updates object highlighting on mouse over.  Called internally from Select event 
 
         #Create some geometry
         self.marker = MarkerTracker(name='my_marker', point=(0.0, 0.0, 0.0), parent=self.base)
-        self.line = LineTracker(name='my_line', point=[(0.0, 0.0, 0.0), (100.0, 100.0, 100.0)], parent=self.base)
+        self.line = LineTracker(
+                        name='my_line', 
+                        point=[(0.0, 0.0, 0.0), (100.0, 100.0, 100.0)], 
+                        parent=self.base)
