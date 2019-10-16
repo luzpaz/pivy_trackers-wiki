@@ -147,7 +147,7 @@ Switch event callbacks on or off
         self.path_nodes.append(_marker)
 
         #Place the geometry at the origin
-        self.geometry.coordinate.point.setValue((0.0, 0.0, 0.0))
+        self.geometry.set_coordinates((0.0, 0.0, 0.0))
         
 
     def my_mouse_event(self, user_data, event_cb):
