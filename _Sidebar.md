@@ -15,7 +15,7 @@
 * [!drag](Drag-Trait) (Unimplemented)
 * [event](Event-Trait)
 * [geometry](Geometry-Trait)
-* [!pick](Pick-Trait)
+* [pick](Pick-Trait)
 * [!publisher](Publisher-Trait)
 * [!select](Select-Trait)
 * [!style](Style-Trait)
