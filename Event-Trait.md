@@ -8,7 +8,7 @@ The Event trait class provides event callback support to nodes in the scenegraph
 
 ## Prototypes
 
-The following attributes are prototypes for Base members:
+The following attributes are prototypes for [Base](Base-Trait) members:
 
     base = None
     view_state = None
