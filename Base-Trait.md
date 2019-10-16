@@ -14,10 +14,6 @@ The Base Trait inherits the [Publisher](Publisher-Trait) and [Subscriber](Subscr
 
 None
 
-### set_style()
-    set_style(self, style=None, draw=None, color=None)
-Overridden by the Style trait, if inherited.
-
 ## Statics
 
 ### view_state
