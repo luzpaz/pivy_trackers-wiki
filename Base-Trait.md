@@ -1,24 +1,14 @@
 # Overview
 
-The Base trait provides common core features for other traits:
+The Base trait provides common core features for other traits.  These features include [Publisher](Publisher-Trait) / [Subscriber](Subscriber-Trait) traits, initialization of the [ViewState](view_state) and [MouseState](mouse_state) singletons, and scenegraph node management convenience wrappers
 
-* [Publisher](Publisher-Trait) / [Subscriber](Subscriber-Trait) notifications
-* [ViewState](view_state) and [MouseState](mouse_state) singletons
-* A core [coinGroup structure](Scenegraph#coin_group)
-* Scenegraph node management convenience wrappers
+Refer to the diagram for the [Base scenegraph structure](scenegraph#base-structure) for more information.
 
 # API
 
-The API is composed of the following sections:
-
-* [Prototypes](Base-Trait#Prototypes)
-* [Class Statics](Base-Trait#Statics)
-* [Class Attributes](Base-Trait#Attributes)
-* [Class Methods](Base-Trait#Methods)
-
 ## Dependencies
 
-None.  The Base Trait inherits the [Publisher](Publisher-Trait) and [Subscriber](Subscriber-Trait) traits.
+The Base Trait inherits the [Publisher](Publisher-Trait) and [Subscriber](Subscriber-Trait) traits.
 
 ## Prototypes
 
