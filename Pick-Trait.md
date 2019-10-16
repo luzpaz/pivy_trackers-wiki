@@ -4,6 +4,8 @@ The Pick trait adds the `SoPickStyle` node to the tracker graph.  The node is ad
 
 The Pick trait exists largely to enable / disable node picking in the scene graph.  By default, node picking is enabled, thus the pick trait is not necessary unless it is desirable to make nodes unpickable.
 
+Refer to the diagram for the [Pick scenegraph structure](scenegraph#pick-structure) for more information.
+
 # API
 
 ## Dependencies
