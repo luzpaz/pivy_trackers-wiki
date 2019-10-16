@@ -6,7 +6,7 @@
 
 # [Module API](Modules)
 ### [Trackers](Modules#trackers)
-* [!GeometryTracker](GeometryTracker)
+* [GeometryTracker](GeometryTracker)
 * [!MarkerTracker](MarkerTracker)
 * [!LineTracker](LineTracker)
 
