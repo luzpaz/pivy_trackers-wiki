@@ -18,7 +18,7 @@
 * [pick](Pick-Trait)
 * [!publisher](Publisher-Trait)
 * [select](Select-Trait)
-* [!style](Style-Trait)
+* [style](Style-Trait)
 * [!subscriber](Subscriber-Trait)
 
 ### [Coin](coin-modules)
