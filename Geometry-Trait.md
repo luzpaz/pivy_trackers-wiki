@@ -28,6 +28,10 @@ Defined as a single group without a switch, any transformations applied to the G
 
 The geometry CoinGroup defines a `transform` (`SoTransform`) and `coordinate` (`SoCoordinate3`) node.
 
+### prev_coordinates
+    prev_coordinates = [()]
+Retains a copy of the previous set of coordinates applied to the geometry
+
 ## Methods
 
 ### update()
