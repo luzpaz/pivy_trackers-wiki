@@ -45,7 +45,7 @@ List of references to Python callback functions which have been added to this Ev
 
 ### path_nodes
     path_nodes = []
-List of references to coin `SoNode` objects which provide the target path for a `SoEVentCallback` node to be triggered.  These must be rendered nodes, like `SoMarkerSet` or `SoLineSet`.  If multiple `SoEventCallback` nodes exist, do not have the same path (or have no paths), a separate reference in the `path_nodes` list must exist, corresponding to the relevant `SoEventCallback` node.  Where there are fewer path node references that callback node references, the last path node in the list is used for all remaining callback nodes.  See the [example](Event-Trait#Example) for details.
+List of references to coin `SoNode` objects which provide the target path for a `SoEventCallback` node to be triggered.  These must be rendered nodes, like `SoMarkerSet` or `SoLineSet`.  If multiple `SoEventCallback` nodes exist, do not have the same path (or have no paths), a separate reference in the `path_nodes` list must exist, corresponding to the relevant `SoEventCallback` node.  Where there are fewer path node references that callback node references, the last path node in the list is used for all remaining callback nodes.  See the [example](Event-Trait#Example) for details.
 
 ## Methods
 
