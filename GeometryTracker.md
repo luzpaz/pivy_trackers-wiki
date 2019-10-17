@@ -27,10 +27,10 @@ Parameters:
 
 # Example
 
-    from .trait.coin.coin_enums import NodeTypes as Nodes
-    from .geometry_tracker import GeometryTracker
+    from pivy_trackers.trait.coin.coin_enums import NodeTypes as Nodes
+    from pivy_trackers.geometry_tracker import GeometryTracker
 
-    class MyMarkerTracker(GeometryTracker):
+    class MyGeometryTracker(GeometryTracker):
 
         def __init__(self, name, point):
 
