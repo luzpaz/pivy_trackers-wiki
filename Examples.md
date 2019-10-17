@@ -20,4 +20,4 @@ DRAGGING NOT YET IMPLEMENTED
 
 # Other Examples
 
-Other examples may be found in the Example section of the [Trackers] and [Traits] classes documented in the [Module API].  Note that most examples found there are not self-contained and are, thus, not complete.
+Other examples may be found in the Example section of the [Trackers](Modules#trackers) and [Traits](Modules#traits) classes documented in the [Module API](Modules).  Note that most examples found there are not self-contained and are, thus, not complete.
