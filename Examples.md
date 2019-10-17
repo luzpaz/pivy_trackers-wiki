@@ -10,7 +10,7 @@ Otherwise, the individual trackers themselves may be instanced directly from the
 
 # Selection and Dragging
 
-**Module:**
+**Module:**<br>
     pivy_trackers.examples.select_drag
 
 The select_drag tracker demonstrates basic tracker highlighting, selection, and dragging.  A simple box consisting of four unconnected markers and lines are created.  Mouse over each marker / line to see highlighting in action.  Click on each element (or over empty space) to select / deselect elements.  Use CTRL+Click to select / deselect multiple elements.
