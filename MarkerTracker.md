@@ -36,5 +36,23 @@ Overload of `Style.set_style()`, setting the coin `SoMarkerSet.markerIndex` attr
 Update the coordinate values for the MarkerTracker graph
 
 # Example
+**(requires FreeCAD-specific module dependencies)**
 
+    import FreeCADGui as Gui
+
+    from pivy_trackers.tracker.context_tracker import ContextTracker
+    from pivy_trackers.tracker.marker_tracker import MarkerTracker
+
+
+    class MyMarkerTracker(ContextTracker):
+
+        def __init__(self):
+
+            super().__init__('MyMarkerTracker', Gui.ActiveDocument.ActiveView)
+
+            self.marker_tracker = \
+                MarkerTracker('mt', (0.0, 0.0, 0.0), self.base)
+
+            self.set_visibility()
+            self.insert_into_scenegraph(True)
     
