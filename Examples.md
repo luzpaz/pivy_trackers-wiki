@@ -8,11 +8,8 @@ Otherwise, the individual trackers themselves may be instanced directly from the
     >>> tracker = SelectDragTracker(Gui.ActiveDocument.ActiveView)
     >>> tracker.insert_into_scenegraph(True)
 
-# Demonstration
-
-Each example demonstrates a different aspect of the pivy_trackers library, highlighting a specific feature or way to accomplish certain effects.
-
-## select_drag
+# Selection and Dragging
+**pivy_trackers.examples.select_drag**
 
 The select_drag tracker demonstrates basic tracker highlighting, selection, and dragging.  A simple box consisting of four unconnected markers and lines are created.  Mouse over each marker / line to see highlighting in action.  Click on each element (or over empty space) to select / deselect elements.  Use CTRL+Click to select / deselect multiple elements.
 
