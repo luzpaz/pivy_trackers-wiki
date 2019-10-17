@@ -8,8 +8,8 @@
 ### [Trackers](Modules#trackers)
 * [ContextTracker](ContextTracker)
 * [GeometryTracker](GeometryTracker)
-* [!MarkerTracker](MarkerTracker)
-* [!LineTracker](LineTracker)
+* [MarkerTracker](MarkerTracker)
+* [LineTracker](LineTracker)
 
 ### [Traits](Modules#traits)
 * [base](Base-Trait)
