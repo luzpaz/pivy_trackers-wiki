@@ -10,7 +10,7 @@ Otherwise, the individual trackers themselves may be instanced directly from the
 
 # Selection and Dragging
 
-**Module:**<br>
+Module:
 
     pivy_trackers.examples.select_drag
 
