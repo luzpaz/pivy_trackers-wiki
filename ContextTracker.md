@@ -23,7 +23,7 @@ The ContextTracker should never not sink / consume events
 Initializes Base, Event, and Select traits and the corresponding Singleton state classes.  Also adds mouse movement and button event callbacks to provide the negative selection context.
 
 # Example
-**(requires FreeCAD-specific module dependencies)
+**(requires FreeCAD-specific module dependencies)**
 
     import FreeCADGui as Gui
 
