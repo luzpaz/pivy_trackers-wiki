@@ -1,6 +1,7 @@
 # Get Started
 * [Home][home]
 * [Examples](Examples)
+    *[Select / Drag](Examples#selection-and-dragging)
 * [Tutorials]
 * [Gallery]
 
@@ -43,9 +44,6 @@
 * [!smart_tuple](smart_tuple)
 * [todo](todo)
 * [view_state](view_state)
-
-### [Examples](examples-modules)
-* [!Marker and Line Tracker](Example-Marker-and-Line-Tracker )
 
 # [Scenegraph](scenegraph)
 ### [CoinGroup Structure](Scenegraph#coingroup)
