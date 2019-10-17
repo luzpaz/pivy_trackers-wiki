@@ -48,7 +48,7 @@ Custom trackers may be created by simply importing the appropriate trait modules
 
 It is important to note two things:  
 1. The order of the traits in the inheritance list matters (see the [Traits](Modules#Traits) documentation for details). 
-2. The trait classes should be intialized before any custom initialization code is run.  That is, `super().__init__()` should be called first.
+2. The trait classes should be initialized before any custom initialization code is run.  That is, `super().__init__()` should be called first.
 
 # Traits
 
@@ -58,6 +58,6 @@ Traits are intended to provide an a la carte feature set from which a Tracker ma
 
 The trick that makes traits work is broken inheritance.  That is, even though some traits depend upon others (Select depends on Style and Event, and all depend upon Base), none inherit any of the other traits.  Rather they rely on their position in the Python Method Resolution Order (MRO) to ensure that the needed attributes supplied by other traits are present when they are initialized.
 
-As a result, unlike the tracker classes, the trait classes pass control to the next class in the MRO last, **after** the trait class has run it's own intialization code and added it's particular methods and attributes to the tracker class object.  Citing the snippet in the [Tracker](Modules#Trackers) documentation above, we can see the GeometryTracker class inherits five traits.  Of those, all depend upon Base, Select depends upon Event and Style, and Geometry depends upon Select, hence their order in the class signature.
+As a result, unlike the tracker classes, the trait classes pass control to the next class in the MRO last, **after** the trait class has run it's own initialization code and added it's particular methods and attributes to the tracker class object.  Citing the snippet in the [Tracker](Modules#Trackers) documentation above, we can see the GeometryTracker class inherits five traits.  Of those, all depend upon Base, Select depends upon Event and Style, and Geometry depends upon Select, hence their order in the class signature.
 
-This is risky programming, to be sure, but it's strictly limited to the trait module initializations.  Further, to help makemitigate confusion and make the nature of trait dependencies more clear, each trait has the members it requires from other modules declared and defined as static class members.  This is a form of 'prototyping' commonly used in strictier, strongly-typed langauges like C++ and Java.  The use of proptyped methods and attributes is not at all required for Python, but it serves as a good way to document class dependencies where inhertiance is not used.  It also keeps the IDE linter happy. :)
+This is risky programming, to be sure, but it's strictly limited to the trait module initializations.  Further, to help makemitigate confusion and make the nature of trait dependencies more clear, each trait has the members it requires from other modules declared and defined as static class members.  This is a form of 'prototyping' commonly used in strictier, strongly-typed languages like C++ and Java.  The use of proptyped methods and attributes is not at all required for Python, but it serves as a good way to document class dependencies where inhertiance is not used.  It also keeps the IDE linter happy. :)

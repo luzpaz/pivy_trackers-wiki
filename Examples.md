@@ -1,4 +1,4 @@
-v# Overview
+# Overview
 
 The `pivy_tracker.examples` module contains examples of pivy trackers designed for use in FreeCAD.  Each example contains a 'command' and 'task' class module which may be used directly in a FreeCAD Python workbench.  Simply import the 'command' module class into a workbench's `init_gui.py` file to begin testing with it.  
 

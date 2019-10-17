@@ -51,7 +51,7 @@ Retrieve a reference to the active task panel.  Refresh forces a lookup using `g
 
 ### get_matrix()
     ViewState().get_matrix(self, node, parent=None, refresh=True)
-Retrives the transformation matrix applied to `node`.  If `parent` is undefined, scenegraph root is assumed.  Refresh forces an update of the matrix if True, returns last-retrieved matrix if False.
+Retrieves the transformation matrix applied to `node`.  If `parent` is undefined, scenegraph root is assumed.  Refresh forces an update of the matrix if True, returns last-retrieved matrix if False.
 
 ### getCursorPos()
     ViewState().getCursorPos(self)
