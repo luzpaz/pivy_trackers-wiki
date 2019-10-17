@@ -1,4 +1,4 @@
-# Get Started
+# [Get Started][home]
 * [Home][home]
 * [Examples](Examples)
     * [Overview](Examples#overview)
