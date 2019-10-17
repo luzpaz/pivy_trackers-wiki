@@ -1,6 +1,6 @@
 # Get Started
 * [Home][home]
-* [Examples]
+* [Examples](Examples)
 * [Tutorials]
 * [Gallery]
 
