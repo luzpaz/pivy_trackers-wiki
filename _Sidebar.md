@@ -1,7 +1,9 @@
 # Get Started
 * [Home][home]
 * [Examples](Examples)
+    * [Overview](Examples#overview)
     * [Select / Drag](Examples#selection-and-dragging)
+    * [Other](Examples#other-examples)
 * [Tutorials]
 * [Gallery]
 
