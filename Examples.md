@@ -13,7 +13,7 @@ Otherwise, the individual trackers themselves may be instanced directly from the
 
 The select_drag tracker demonstrates basic tracker highlighting, selection, and dragging.  A simple box consisting of four unconnected markers and lines are created.  Mouse over each marker / line to see highlighting in action.  Click on each element (or over empty space) to select / deselect elements.  Use CTRL+Click to select / deselect multiple elements.
 
-DRAGGING NOT YET IMPLEMENTED
+**DRAGGING NOT YET IMPLEMENTED**
 
 # Other Examples
 
