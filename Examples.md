@@ -2,7 +2,7 @@ v# Overview
 
 The `pivy_tracker.examples` module contains examples of pivy trackers designed for use in FreeCAD.  Each example contains a 'command' and 'task' class module which may be used directly in a FreeCAD Python workbench.  Simply import the 'command' module class into a workbench's `init_gui.py` file to begin testing with it.  
 
-Otherwise, the individual trackers themselves may be instanced directly from the Python console in FreeCAD.  An example using the SelectDragTracker example:
+Otherwise, the individual trackers themselves may be instanced directly from the Python console in FreeCAD:
 
     >>> from pivy_trackers.examples.select_drag.select_drag_tracker import SelectDragTracker
     >>> tracker = SelectDragTracker(Gui.ActiveDocument.ActiveView)
