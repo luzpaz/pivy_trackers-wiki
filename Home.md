@@ -35,9 +35,13 @@ Pivy trackers are also designed to work in layers of complexity.  A basic tracke
 
 Check out the [custom classes](Customizing) documentation to learn more.
 ***
-## Limitations
+## Dependencies
 
 Pivy_trackers depends on pivy - a library of Python bindings for Coin3D developed specifically for the FreeCAD project.  
 While pivy may be used independently of FreeCAD, it's valid use cases are entirely limited to FreeCAD itself.  
 
 Pivy_trackers endeavors to exist as a library solely dependent on pivy.  However, as no alternative projects exist which depend upon pivy, there are certain FreeCAD dependencies which still exist in pivy_trackers.  These dependencies, however, can be mitigated if and when use cases outside FreeCAD arise.
+
+## Known Limitations / Bugs
+
+Currently, object destruction is problematic.  Thus, creating multiple trackers apart from one another (or destroying one and creating another) is likely to create unexpected behavior.  This is probably due to Singleton state classes not being properly reset.
